@@ -271,3 +271,31 @@
 11:16:45.124953 table@remove removed @61
 11:16:45.124974 table@remove removed @58
 11:16:45.125061 table@remove removed @57
+=============== Aug 24, 2020 (UTC) ===============
+18:17:38.775341 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:17:38.775508 version@stat F·[0 1] S·404KiB[0B 404KiB] Sc·[0.00 0.00]
+18:17:38.775517 db@open opening
+18:17:38.775556 journal@recovery F·1
+18:17:38.776622 journal@recovery recovering @68
+18:17:38.808889 memdb@flush created L0@71 N·2 S·243B "Blo..ion,v6665":"Las..der,v6666"
+18:17:38.813228 version@stat F·[1 1] S·405KiB[243B 404KiB] Sc·[0.25 0.00]
+18:17:38.833956 db@janitor F·4 G·0
+18:17:38.834002 db@open done T·58.47372ms
+=============== Aug 24, 2020 (UTC) ===============
+19:44:10.734510 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:44:10.735296 version@stat F·[1 1] S·405KiB[243B 404KiB] Sc·[0.25 0.00]
+19:44:10.735311 db@open opening
+19:44:10.735371 journal@recovery F·1
+19:44:10.737080 journal@recovery recovering @72
+19:44:10.748400 memdb@flush created L0@74 N·2 S·243B "Blo..ion,v6668":"Las..der,v6669"
+19:44:10.750008 version@stat F·[2 1] S·405KiB[486B 404KiB] Sc·[0.50 0.00]
+19:44:10.768025 db@janitor F·5 G·0
+19:44:10.768074 db@open done T·32.751506ms
+=============== Aug 26, 2020 (UTC) ===============
+00:44:13.001725 table@compaction L0·2 -> L1·1 S·405KiB Q·6672
+00:44:13.032421 table@build created L1@77 N·2992 S·404KiB "\x00\x0e\x17..D$\x8e,v6056":"\xffث..\x1f\x9e8,v6333"
+00:44:13.032502 version@stat F·[0 1] S·404KiB[0B 404KiB] Sc·[0.00 0.00]
+00:44:13.037785 table@compaction committed F-2 S-486B Ke·0 D·4 T·35.979991ms
+00:44:13.037893 table@remove removed @74
+00:44:13.037941 table@remove removed @71
+00:44:13.038017 table@remove removed @70

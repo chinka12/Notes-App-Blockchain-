@@ -9,7 +9,7 @@
   "keywords": [
     "Developed",
     "for",
-    "DataManager"
+    "TradeFlo"
   ],
   "author": "RITAM GUPTA",
   "license": "ISC",
@@ -20,6 +20,7 @@
     "express": "^4.14.1",
     "express-session": "^1.15.1",
     "nodemon": "^1.11.0",
+    "request": "^2.88.2",
     "web3": "^0.18.2"
   }
 }
