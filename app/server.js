@@ -20,7 +20,7 @@ var cookieParser = require('cookie-parser'); // the session is stored in a cooki
 app.use(cookieParser());
 
 app.use(expressSession({
-    secret: 'TradeFlo_session',
+    secret: 'Demo_session',
     resave: false,
     saveUninitialized: true
 }));
@@ -31,12 +31,12 @@ app.use(cors());
 
 app.get('/', function(req, res) {
 
-    res.send("This API server is developed for TradeFlo");
+    res.send("This API server is developed for Demo");
 })
 
 //API handlers
-app.use('/api/dataManager', require('./api/dataManager'));
+app.use('/api/notesManager', require('./api/notesManager'));
 
-app.listen(3001, function() {
-    console.log('app running on port : 3001');
+app.listen(3002, function() {
+    console.log('app running on port : 3002');
 });
