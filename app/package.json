@@ -11,7 +11,7 @@
     "for",
     "TradeFlo"
   ],
-  "author": "RITAM GUPTA",
+  "author": "CHINKA GUPTA",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.16.1",
